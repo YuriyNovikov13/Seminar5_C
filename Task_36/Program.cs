@@ -5,7 +5,7 @@
 Console.WriteLine("Введите количество элементов массива: ");
 int sumElement = Convert.ToInt32(Console.ReadLine());
 int minElement = -100;
-int maxElement = 101;
+int maxElement = 100;
 int[] FillArrey(int num, int min, int max)
 {
     int[] array = new int[num];
